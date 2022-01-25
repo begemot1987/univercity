@@ -49,4 +49,14 @@ public class Teacher {
     public void setDegree(String degree) {
         this.degree = degree;
     }
+
+    @Override
+    public String toString() {
+        return "Teacher{"
+                + "id=" + id
+                + ", name='" + name + '\''
+                + ", lastName='" + lastName + '\''
+                + ", degree='" + degree + '\''
+                + '}';
+    }
 }

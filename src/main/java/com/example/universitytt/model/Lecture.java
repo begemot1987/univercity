@@ -68,4 +68,15 @@ public class Lecture {
     public void setDay(Day day) {
         this.day = day;
     }
+
+    @Override
+    public String toString() {
+        return "Lecture{"
+                + "id=" + id
+                + ", discipline=" + discipline
+                + ", auditorium=" + auditorium
+                + ", teacher=" + teacher
+                + ", day=" + day
+                + '}';
+    }
 }

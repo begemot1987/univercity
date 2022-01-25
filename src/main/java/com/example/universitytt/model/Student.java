@@ -69,4 +69,15 @@ public class Student {
     public void setSchedule(List<Lecture> schedule) {
         this.schedule = schedule;
     }
+
+    @Override
+    public String toString() {
+        return "Student{"
+                + "id=" + id
+                + ", name='" + name + '\''
+                + ", lastName='" + lastName + '\''
+                + ", group=" + group
+                + ", schedule=" + schedule
+                + '}';
+    }
 }
